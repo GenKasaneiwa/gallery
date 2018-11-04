@@ -57,11 +57,11 @@
 		
 	
 	  <a-entity
-		  id="player"
-		  camera="user-height: 0.5"
+	  id="player"
+		  camera="user-height: 3"
 		  universal-controls
 		  kinematic-body
-		
+		  listener
 		  speed="200"
 		
 				rotation="2.750197416627967 270.0923046246695 0"
@@ -75,10 +75,10 @@
 		<a-image id="player height" src="#floor" alpha-test="0.5" static-body  width="54" height="54" scale="1.035 1.035 1.035" position="7.92 21.915 2.762" rotation="90.01166961505233 0 0"></a-image>
 
 				<!-- Changing camera hight -->
-<a-image id="player height" src="#floor" alpha-test="0.5" static-body material="opacity:0" width="54" height="54" scale="5.309 5.309 5.309" position="7.92 5 44.986" rotation="90 0 0"></a-image>
 
-		
-		
+	
+			<!-- Changing camera hight -->
+		<a-image src="#floor" alpha-test="0.5" static-body="sphereRadius:NaN" material="opacity: 0.0; transparent: true" width="54" height="54" scale="5.309 5.309 5.309" position="-1.941 4 46.483" rotation="90 0 0"></a-image>
 		
 		
 		
